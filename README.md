@@ -5,7 +5,6 @@ about HR Policy documents using OpenAI and Pinecone.
 
 ## Tech Stack
 - Python
-- LangChain
 - OpenAI (text-embedding-3-small, gpt-3.5-turbo)
 - Pinecone (vector database)
 - Streamlit (UI)
