@@ -18,7 +18,6 @@ A production-style Retrieval-Augmented Generation (RAG) chatbot that answers que
 - [Sample Questions & Answers](#-sample-questions--answers)
 - [Key Learnings — Building RAG Without a Framework](#-key-learnings--building-rag-without-a-framework)
 - [Setup Instructions](#-setup-instructions)
-- [Interview Questions to Prepare](#-interview-questions-to-prepare)
 - [Author](#-author)
 
 ---
