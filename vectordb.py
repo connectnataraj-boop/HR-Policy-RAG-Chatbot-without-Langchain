@@ -26,7 +26,7 @@ def pinecone_upsert(chunks: List[str], embeddings: List[List[float]], namespace:
     batch_size = 100
     for i in range(0, len(vector_to_upsert), batch_size):
         batch = vector_to_upsert[i:i+batch_size]
-        index.upsert(vector=batch, namespace=namespace)
+        index.upsert(vectors=batch, namespace=namespace)
 
 
 def search_in_pinecone(query_vector: List[float], top_k=4, namespace: str = ""):
